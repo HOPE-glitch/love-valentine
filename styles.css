@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 192, 203, 0.7);
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 3px solid #fff;
+}
+
+.title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 5px #b22222;
+}
+
+.btn {
+    margin: 15px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    color: #fff;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn:first-of-type {
+    background-color: #ff1493;
+}
+
+.btn:first-of-type:hover {
+    background-color: #e75480;
+}
+
+.btn:last-of-type {
+    background-color: #c71585;
+}
+
+.btn:last-of-type:hover {
+    background-color: #b03060;
+}
